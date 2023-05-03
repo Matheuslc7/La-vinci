@@ -1,0 +1,48 @@
+.preCabeçalho {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+}
+
+.sectionPreCabeçalho {
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    width: 100%;
+    background-color: #2E3065;
+}
+
+.textoTopo {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.redes {
+    height: 1.5rem;
+}
+
+.cabeçalho {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 20%;
+}
+
+.lavinci {
+    width: 40%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.meuPerfil {
+    display: flex;
+    align-items: center;
+}
