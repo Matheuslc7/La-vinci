@@ -1,6 +1,21 @@
 @import url(header.css);
+@import url(principal.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+    --branco: white;
+    --cor-principal: #2E3065;
+    --cor-secundaria: #EAEAEA;
+    --cor-terciaria : #757575;
+
+    --fonte-texto : 'Montserrat', sans-serif;
+    --fonte-sec : 'Mulish', sans-serif;
+}
 
 body {
     margin: 0;
     padding: 0;
+    font-family: var(--fonte-texto);
 }

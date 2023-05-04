@@ -12,21 +12,26 @@
 
 .topo {
     width: 100%;
-    background-color: #2E3065;
+    height: 2.75rem;
+    background-color: var(--cor-principal);
+    margin-bottom: 1rem;
 }
 
 .textoTopo {
-    color: white;
+    color: var(--branco);
+    justify-content: center;
     text-transform: uppercase;
     text-align: center;
     text-decoration: underline;
     font-style: italic;
+    font-family: var(--fonte-texto);
+    font-size: .89rem;
 }
 
 .baixoTopo {
-    display: inline;
-    width: 20%;
-    float: right;
+    display: flex;
+    gap: .8rem;
+    margin-left: 115rem;
 }
 
 .redes {
@@ -36,19 +41,77 @@
 .cabeçalho {
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 40% 20%;
+    grid-template-columns: 30% 55% 15%;
+    margin-top: 4rem;
+    align-items: center;
 }
 
 .lavinci {
-    width: 40%;
+    width: 70%;
+    margin-left: 4rem;
+}
+
+.pesquisa {
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.pesquisaPrincipal {
+    width: 100%;
+    height: 2.75rem;
+    border-radius: 1.25rem;
+    border: solid 1px var(--cor-secundaria);
+}
+
+.pesquisaPrincipal::placeholder {
+    background-image: url(../imagens/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 63rem;
+    font-size: .85rem;
+    padding-left: 1rem;
+    color: var(--cor-terciaria);
+    letter-spacing: .05rem;
 }
 
 .perfil {
     display: flex;
     align-items: center;
+    gap: 3rem;
 }
 
 .meuPerfil {
     display: flex;
     align-items: center;
+    margin-left: 5rem;
+    gap: .7rem;
+}
+
+.conta {
+    font-size: .75rem;
+    font-weight: 900;
+    color: black;
+    font-family: var(--fonte-sec)
+}
+
+.classificação {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    height: 5rem;
+}
+
+.clasUnica {
+    display: flex;
+    width: 12.5%;
+    justify-content: center;
+}
+
+.imgClasUnica {
+    height: 55%;
+}
+
+.textoClasUnica {
+    color: var(--cor-principal);
+    font-size: .8rem;
+    font-weight: 900;
 }
