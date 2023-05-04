@@ -12,7 +12,7 @@
 
 .linha {
     border: solid 1px var(--cor-secundaria);
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 
 .itens {
@@ -22,12 +22,14 @@
     gap: 1rem;
 }
 
-.item { 
+.item {
     justify-content: center;
     text-align: center;
     align-items: center;
     border: solid 1px var(--cor-secundaria);
     border-radius: .5rem;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .imgItem {
@@ -48,9 +50,8 @@ h2 {
 }
 
 .item:hover {
-    background-image: url(../imagens/kit1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    -webkit-transform:scale(1.25);
+    transform:scale(1.25);
     overflow: hidden;
+    position: relative;
 }
